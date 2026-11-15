@@ -6,3 +6,9 @@
 
 # 4) Inside the loop, print the current value of `i` (so numbers appear in reverse order).
 
+n = int(input("Enter the value of n:"))
+
+print("Number from {0} to {1} are: ".format(n,1))
+
+for i in range(n,0,-1):
+    print(i)
